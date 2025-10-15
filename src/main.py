@@ -8,7 +8,7 @@ from omdb_utils import get_movie_details
 config = json.load(open("config.json"))
 
 # OMDB api key
-OMDB_API_KEY = config["OMDB_API_KEY"]
+OMDB_API_KEY = config["65f95272"]
 
 st.set_page_config(
     page_title="Movie Recommender",
